@@ -1,5 +1,5 @@
 import React from "react";
-import { useNavigate, useLocation } from "react-router-dom";
+import { useNavigate,  } from "react-router-dom";
 
 const cardTexts = [
   "Best Overall Kalenjin Artiste- Secular",
@@ -40,7 +40,7 @@ const cardTexts = [
 
 const ScrollableCards = () => {
   const navigate = useNavigate();
-  const location = useLocation();
+  // const location = useLocation();
    
 
  const handleCategoryClick = async (category) => {
